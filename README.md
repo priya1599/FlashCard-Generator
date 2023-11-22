@@ -1,9 +1,9 @@
 # Almabetter-Flashcard-Generator
 
-This is a frontend capstone project given by the Almabetter which is a Flashcard Generator
+This is a Frontend Capstone Project given by the Almabetter which is a Flashcard Generator
 
 ## Interface-with-Dark-mode-enabled
-![image] 
+
 ![DarkMode](https://github.com/priya1599/FlashCard-Generator/assets/128911820/da437124-0660-4ead-85b2-a154ed77e99c)
 
 ## Interface-with-Light-mode-enabled
@@ -11,9 +11,7 @@ This is a frontend capstone project given by the Almabetter which is a Flashcard
 
 ![LightMode](https://github.com/priya1599/FlashCard-Generator/assets/128911820/a6247743-97be-4c2e-aeda-0763157aa0d9)
 
-## Deployment
 
-Click on the link to see my flashcard generator website
 
 ## Run Locally
 
@@ -73,14 +71,14 @@ This project is created with mainly Reactjs, In this project mainly we have thre
 - Social Media Butoon's ( Working )
 - See all (Button)
 - Back Button
-- close button for closing the share page
+- Close button for closing the share page
 
 ## Skills
 Javascript, HTML, CSS, ReactJS, Redux
 
 
 
-## Deployed app
+## Deployed App
 
 
 
