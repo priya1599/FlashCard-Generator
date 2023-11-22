@@ -4,10 +4,12 @@ This is a frontend capstone project given by the Almabetter which is a Flashcard
 
 ## Interface-with-Dark-mode-enabled
 ![image] 
+![DarkMode](https://github.com/priya1599/FlashCard-Generator/assets/128911820/da437124-0660-4ead-85b2-a154ed77e99c)
 
 ## Interface-with-Light-mode-enabled
 
 
+![LightMode](https://github.com/priya1599/FlashCard-Generator/assets/128911820/a6247743-97be-4c2e-aeda-0763157aa0d9)
 
 ## Deployment
 
