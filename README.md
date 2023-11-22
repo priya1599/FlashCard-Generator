@@ -36,7 +36,7 @@ Start the server
 - React Formik & Yup,
 - domtoimage
 
-## About The Project (Flashcard )
+## About The Project (Flashcard Generator)
 This project is created with mainly Reactjs, In this project mainly we have three pages
 1) Create Flashcard page 
 2) My Flashcard page 
