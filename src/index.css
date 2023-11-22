@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(246, 238, 240);
+}
+
+#dark .container{
+  background: #21201f;
+}
+#dark .active{
+  color: rgb(226, 0, 0);
+}
+#light .active{
+  color: #000000;
+}
+#dark .shadow-lg{
+  background: #393939;
+}
+#dark body{
+  background: #393939;
+}
+
+#light body{
+    background-color:#f8f4ef;
+}
+
+#parentDiv{
+  display: inline-flex;
+  position: relative;
+  background: white;
+}
+
+#deleteFlashcard{
+  position:absolute; 
+  left:90%; 
+  top: 0%;
+  color: rgb(16, 12, 12);
+}
+
+.popupBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, 0.696);
+}
+
+.closebtn {
+  position: absolute;
+  right: 5%;
+  top: 14%;
+  margin-top: 1px;
+  font-size: 28px;
+  cursor: pointer;
+}
