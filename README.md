@@ -38,11 +38,11 @@ Start the server
 
 ## About The Project (Flashcard )
 This project is created with mainly Reactjs, In this project mainly we have three pages
-1) create Flashcard page 
+1) Create Flashcard page 
 2) My Flashcard page 
 3) Flashcard Details page  with  share page 
 
-- create Flashcard page: In create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
+- Create Flashcard page: In Create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
 
 - My Flashcard page: For the My Flashcard page we separately designed the My Flashcard UI component and mapped the UI and input data in My Flashcard
 
