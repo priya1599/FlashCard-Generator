@@ -1,7 +1,6 @@
 # Almabetter-Flashcard-Generator
 
-This is a Frontend Capstone Project given by the Almabetter which is a Flashcard Generator
-
+This project assignment from Almabetter serves as a front-end capstone task. It involves developing a flashcard generator application that facilitates the creation of multiple flashcards within a group. This application offers features such as card creation, the addition of both text and images, sharing, downloading, deletion, and even the option to print the generated flashcards. The user interface of this app is designed to be fully responsive, ensuring a seamless experience across various devices. 
 ## Interface-with-Dark-mode-enabled
 
 ![DarkMode](https://github.com/priya1599/FlashCard-Generator/assets/128911820/da437124-0660-4ead-85b2-a154ed77e99c)
