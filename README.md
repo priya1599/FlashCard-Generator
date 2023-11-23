@@ -37,15 +37,16 @@ Start the server
 - domtoimage
 
 ## About The Project (Flashcard Generator)
-This project is created with mainly Reactjs, In this project mainly we have three pages
+This project is created with mainly Reactjs, In this project  we have three pages,
 1) Create Flashcard page 
 2) My Flashcard page 
 3) Flashcard Details page  with  share page 
 
 - Create Flashcard page: In Create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
 
-- My Flashcard page: For the My Flashcard page we separately designed the My Flashcard UI component and mapped the UI and input data in My Flashcard
-
+- My Flashcard page: In this section, you can view all the card groups that have been created. Each group is presented with a group heading, an associated group icon image, a description of the card group, the 
+                     total count of cards within the group, and a button for accessing the cards on the subsequent page.
+  
 - FlashcardDetails page: On the page, we wrote a code for displaying the number of cards and details of cards, and on the page, we also created a share popup slide with all social media Links
 
 ## How To Use
