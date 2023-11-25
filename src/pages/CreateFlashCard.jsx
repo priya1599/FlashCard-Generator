@@ -90,7 +90,7 @@ return (
           <button style={{ backgroundColor: props.mode === "white" ? "white" : "rgb(12 74 110)" , color: props.mode === "white" ? "black" : "white"}}
           type='button'
           onClick={() => filePicker.current.click()}
-          className="md:flex items-center px-10 py-2 mt-6 h-9 text-lg bg-white border-2 border-slate-300 active:border-blue-600 
+          className="md:flex items-center px-10 py-2 mt-6  bg-white border-2 border-slate-300 active:border-blue-600 
           text-blue-700 font-semibold  space-x-2 rounded-lg"
           >
           <AiOutlineUpload className='w-6 h-6'/><label>Upload Image</label>
@@ -112,7 +112,7 @@ return (
                 </button>
                 )}
                 </div>
-                <div className='flex flex-col w-full sm:w-[70%] text-gray-600 text-lg'>
+                <div className='flex flex-col w-full sm:w-[70%] text-gray-600 '>
                   <label style={{ color: props.mode === "white" ? "black" : "white" }} htmlFor='addDescription' className='mb-2'>
                     Add Description
                   </label>
