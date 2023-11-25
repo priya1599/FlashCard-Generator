@@ -201,7 +201,7 @@ return (
                             filePickerRef.current.click()
                             }
                             className={`md:flex-row px-10 py-1 mt-6 bg-white border-2 border-slate-300
-                            active:border-blue-600 text-blue-600 font-semibold rounded-md space-x-2 text-lg`} >
+                            active:border-blue-600 text-blue-600 font-semibold rounded-md space-x-2 `} >
                             
                             <input 
                              type="file" 
