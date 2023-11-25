@@ -63,7 +63,7 @@ return (
 
     <Form className=" text-black text-bold font-medium ">
     <div className='md:flex flex-col px-10 py-4 bg-white drop-shadow-lg space-y-4  ml-36 mr-36 rounded-lg' style={{ backgroundColor: props.mode === "white" ? "white" : "rgb(30 41 59)" }}>
-      <div className="flex flex-col sm:flex-row items-center space-x-10 pt-2 text-gray-600 text-lg">
+      <div className="flex flex-col sm:flex-row items-center space-x-10 pt-2 text-gray-600 text-lg md:flex-row">
       <div className="flex flex-col relative ">
         <label style={{ color: props.mode === "white" ? "black" : "white" }} htmlFor='createGroup'>Create Group *</label>
         <Field
@@ -180,7 +180,7 @@ return (
                       id = "enterDefination"
                       placeholder="term definition"
                       name = {`cards.${index}.carddescription`}
-                      className = "resize-none md:w-80 border-gray-300 border-2 focus:ring-gray-400 focus:border focus:border-gray-400 rounded-lg "
+                      className = "resize-none md:w-80 border-gray-300 border-2 focus:ring-gray-400 focus:border focus:border-gray-400 rounded-lg  md:flex-row"
                       style={{ backgroundColor: props.mode === "white" ? "white" : "rgb(15 23 42)", color: props.mode === "white" ? "black" : "white" }}
                       />
                       <ErrorMessage
@@ -189,7 +189,7 @@ return (
                       />
                       </div>
 
-                      <div className='flex items-center space-x-2'>
+                      <div className='flex items-center space-x-2 md:flex'>
                         {singleImg ?(
                           <img src={singleImg} alt="singleImg" 
                           className='w-28 h-28 object-contain'
@@ -200,7 +200,7 @@ return (
                             onClick={()=>
                             filePickerRef.current.click()
                             }
-                            className={` px-10 py-1 mt-6 bg-white border-2 border-slate-300
+                            className={`md:flex-row px-10 py-1 mt-6 bg-white border-2 border-slate-300
                             active:border-blue-600 text-blue-600 font-semibold rounded-md space-x-2 text-lg`} >
                             
                             <input 
