@@ -79,6 +79,8 @@ Javascript, HTML, CSS, ReactJS, Redux
 
 
 ## Deployed App
+flash-card-generator-phi.vercel.app
+
 
 
 
