@@ -180,7 +180,7 @@ return (
                       id = "enterDefination"
                       placeholder="term definition"
                       name = {`cards.${index}.carddescription`}
-                      className = " md:w-80 border-gray-300 border-2 focus:ring-gray-400 focus:border focus:border-gray-400 rounded-lg  md:flex-row"
+                      className = "resize-none md:w-80 border-gray-300 border-2 focus:ring-gray-400 focus:border focus:border-gray-400 rounded-lg  md:flex-row"
                       style={{ backgroundColor: props.mode === "white" ? "white" : "rgb(15 23 42)", color: props.mode === "white" ? "black" : "white" }}
                       />
                       <ErrorMessage
