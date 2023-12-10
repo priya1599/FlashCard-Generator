@@ -115,7 +115,7 @@ const FlashCardDetails = (props) => {
         <div className='flex flex-col' style={{color: props.mode === "white" ? "black" : "white"}}>
           <h2 style={{color: props.mode === "white" ? "black" : "white"}} className="text-2xl text-black font-bold ">{ourCard.groupname}</h2>
           {ourCard.groupdescription && (
-            <p style={{color: props.mode === "white" ? "black" : "white"}} className=" my-2 text-2xl text-black semi-bold" >{ourCard.groupdescription}</p>
+            <p style={{color: props.mode === "white" ? "black" : "white"}} className=" my-2 text-2xl text-black semi-bold mr-20" >{ourCard.groupdescription}</p>
           )}
         
         </div>
